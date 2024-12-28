@@ -49,6 +49,9 @@
     padding: 5px 20px;
     font-family: 'Vazir', Arial, sans-serif;
     border: none;
+    width: 40%;
+    align-items: center;
+    justify-content: center;
 }
 
 .menu-main-container {
