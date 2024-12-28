@@ -28,6 +28,8 @@
 .menu {
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .menu-header{
@@ -38,6 +40,7 @@
     margin: 20px 0px;
     padding: 5px 15px;
     font-family: 'Vazir', Arial, sans-serif;
+    width: 60%;
 }
 
 .menu-main-button {
