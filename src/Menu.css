@@ -1,0 +1,29 @@
+.menu-group-image{
+    width: 60px;
+    margin: 10px;
+}
+
+.menu-group-button {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #f8f8f8;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    margin: 10px;
+    font-family: 'Vazir', Arial, sans-serif;
+    transition: transform 0.2s ease-in-out;
+    padding-bottom: 5px;
+}
+
+.menu-group-button:hover {
+    transform: scale(1.06);
+    cursor: pointer;
+}
+
+.menu-group {
+    display: flex;
+    justify-content: center;
+}
+

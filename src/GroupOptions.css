@@ -1,0 +1,61 @@
+.group-options {
+    flex-wrap: wrap;
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+    box-shadow: 0px 0px 20px #1c5e39;
+    border-radius: 10px;
+    font-family: 'Vazir', Arial, sans-serif;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 0px;
+    background-color: white;
+}
+
+.group-options li {
+    
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px;
+    padding: 0px 5px;
+    width: 45%;
+    box-shadow: 0px 2px 5px #1c5e39;
+}
+
+.group-options li:hover{
+    transform: scale(1.03);
+    cursor: pointer;
+}
+
+.group-options li div {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    width: 60%;
+}
+
+.group-options li div button {
+    margin-left: 8px;
+    border: none;
+    border-radius: 50%;
+    padding: 0px;
+    width: 15%;
+}
+
+.group-options li div button:hover {
+    transform: scale(1.04);
+    cursor: pointer;
+}
+
+.group-options li div button img {
+    border-radius: 20%;
+    width: 100%;
+}
+
+.group-options li div p {
+    text-align: right;
+}
